@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.swiper-container
+{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom:100px;
+    background: linear-gradient(to right,#ffffff,#ffffff);
+
+}
+.swiper-container h1
+{
+  font-family: cursive;
+  color: #fff;
+  font-size: 40px;
+  text-shadow: 3px 4px #000;
+}
+.swiper-container h1:hover{
+    text-shadow: 4px 6px #000;
+}
+.swiper-container h1 span{
+  color: red;
+  font-family: monospace;
+  font-size: 80px;
+
+}
+.swiper-slide
+{
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+
+
+}
+.swiper-slide:hover
+{
+  box-shadow: 2px 2px 25px #000;
+
+}
+.swiper-slide span{
+
+color: red;
+font-size: 25px;
+font-family:  cursive;
+background-color: #fff;
+background-size: 10px
+
+}
